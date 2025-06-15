@@ -2,6 +2,8 @@
 
 A browser-based tool for visualizing and analyzing 2D raster data from NetCDF (.nc) files, with special support for GOES satellite imagery.
 
+All the data processing occurs in your browser client through the magic of web assembly.  This project makes use of the [h5wasm project](https://github.com/usnistgov/h5wasm) to load netcdf files directly in the browser with no backend required.
+
 Try using the [GOES Data Explorer](https://coliveir-aer.github.io/goes-data-explorer/) (https://coliveir-aer.github.io/goes-data-explorer/) to test it out!  It provides a link to automatically load data public files from AWS S3 buckets into the sandbox web UI at [https://coliveir-aer.github.io/netcdf-react-experiment/](https://coliveir-aer.github.io/netcdf-react-experiment/).  You can also load locally downloaded .nc or .h5 files directly into the viewer.
 
 ## Core Features
