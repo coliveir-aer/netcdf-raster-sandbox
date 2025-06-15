@@ -2,6 +2,8 @@
 
 A browser-based tool for visualizing and analyzing 2D raster data from NetCDF (.nc) files, with special support for GOES satellite imagery.
 
+Try using the [GOES Data Explorer](https://coliveir-aer.github.io/goes-data-explorer/) (https://coliveir-aer.github.io/goes-data-explorer/) to test it out!  It provides a link to automatically load data public files from AWS S3 buckets into the sandbox web UI at [https://coliveir-aer.github.io/netcdf-react-experiment/](https://coliveir-aer.github.io/netcdf-react-experiment/).  You can also load locally downloaded .nc or .h5 files directly into the viewer.
+
 ## Core Features
 
 * **Multi-Canvas Display**: Load and display multiple data layers side-by-side in a responsive grid. Each individual view can be closed or reordered using controls in its header.  
